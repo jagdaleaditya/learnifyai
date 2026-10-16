@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="url(#bg)"/>
+  <!-- Robot head -->
+  <rect x="9" y="10" width="14" height="12" rx="3" fill="#fff"/>
+  <!-- Eyes -->
+  <circle cx="13.5" cy="15" r="2" fill="#4F46E5"/>
+  <circle cx="18.5" cy="15" r="2" fill="#4F46E5"/>
+  <!-- Smile -->
+  <path d="M12.5 19.5q3.5 2.5 7 0" stroke="#4F46E5" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- Antenna -->
+  <line x1="16" y1="10" x2="16" y2="6" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="16" cy="5" r="1.5" fill="#22D3EE"/>
+  <!-- Book base -->
+  <rect x="6" y="24" width="20" height="3" rx="1" fill="#fff" opacity="0.7"/>
+</svg>

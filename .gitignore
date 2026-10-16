@@ -1,0 +1,17 @@
+node_modules
+dist
+*.tsbuildinfo
+
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+server/.env
+server/.env.*
+!server/.env.example
+
+# Personal data written by the server (user list, login audit log, learned examples)
+server/data/users.json
+server/data/users.json.*.tmp
+server/data/logins.jsonl
+server/data/verified.jsonl
